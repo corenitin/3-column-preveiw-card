@@ -38,7 +38,7 @@ main {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    margin: 40px 0 20px 0;
+    margin: 30px 0 20px 0;
 }
 
 .box button {
@@ -53,45 +53,45 @@ main {
     cursor: pointer;
 }
 
-#box-1 {
+.box-1 {
     background-color: hsl(31, 77%, 52%);
     border-radius: 10px 10px 0 0;
 }
 
-#box-2 {
+.box-2 {
     background-color: hsl(184, 100%, 22%);
 }
 
-#box-3 {
+.box-3 {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 10px 10px;
 }
 
-#button-sedan {
+.button-sedan {
     color: hsl(31, 77%, 52%);
 }
 
-#button-sedan:hover {
+.button-sedan:hover {
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
 }
 
-#button-suv {
+.button-suv {
     color: hsl(184, 100%, 22%);
 }
 
-#button-suv:hover {
+.button-suv:hover {
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
 }
 
-#button-luxury {
+.button-luxury {
     color: hsl(179, 100%, 13%);
 }
 
-#button-luxury:hover {
+.button-luxury:hover {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
@@ -99,7 +99,7 @@ main {
 
 /* Responsive design */
 
-@media screen and (min-width: 1024px) and (max-width: 2560px) {
+@media screen and (min-width: 64em) and (max-width: 160em) {
 
     /* Laptop styles here */
     main {
@@ -116,11 +116,11 @@ main {
       margin: 50px 0 0 0;  
     }
 
-    #box-1 {
+    .box-1 {
         border-radius: 10px 0 0 10px;
     }
 
-    #box-3 {
+    .box-3 {
         border-radius: 0 10px 10px 0;
     }
 }
